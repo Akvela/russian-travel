@@ -23,27 +23,15 @@
 @media screen and (max-width: 768px) {
   .places__item {
     grid-template-columns: 340px 1fr;
-    grid-template-rows: 1fr 441px;
+    grid-template-rows: 46px 1fr;
     gap: 48px 28px;
     margin-bottom: 73px;
     max-width: 720px;
   }
-  .places__item:nth-child(3) {
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: 1fr 389px;
-  }
-  .places__item:nth-child(4) {
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: 1fr 337px;
-  }
-  .places__item:nth-child(5) {
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: 1fr 390px;
-  }
 }
 
 @media screen and (max-width: 320px) {
-  .places__item:nth-of-type(1n) {
+  .places__item {
     grid-template-columns: 1fr;
     grid-template-rows: 35px 46px 320px 1fr;
     gap: 32px;

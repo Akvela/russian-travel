@@ -1,7 +1,9 @@
 .places {
   margin: 0 auto;
   padding-top: 92px;
-  max-width: 984px; 
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
