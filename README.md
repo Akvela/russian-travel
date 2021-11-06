@@ -6,3 +6,4 @@
 * Flex
 * Плавность переходов
 
+Посмотреть проект можно по [ссылке](https://akvela.github.io/russian-travel)
