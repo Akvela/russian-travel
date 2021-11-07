@@ -4,12 +4,21 @@
   font-style: normal;
   font-weight: 900;
   line-height: 76px;
+  display: inline-block;
+  width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__title {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .places__title {
     font-size: 42px;   
     line-height: 46px;
+    max-width: 340px;
   }
 }
 
@@ -18,5 +27,6 @@
     padding-left: 16px;
     font-size: 32px;   
     line-height: 35px;
+    max-width: 288px;
   }
 }

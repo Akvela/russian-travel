@@ -1,8 +1,7 @@
 .places__item {
-  display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: 1fr 460px;
-  gap: 48px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
   margin-bottom: 80px;
   max-width: 984px;
 }
@@ -13,18 +12,14 @@
 
 @media screen and (max-width: 1024px) {
   .places__item {
-    grid-template-columns: 440px 1fr;
-    grid-template-rows: 1fr 440px;
-    gap: 48px 32px;
+    gap: 32px;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__item {
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: 46px 1fr;
-    gap: 48px 28px;
+    gap: 28px;
     margin-bottom: 73px;
     max-width: 720px;
   }
@@ -32,8 +27,6 @@
 
 @media screen and (max-width: 320px) {
   .places__item {
-    grid-template-columns: 1fr;
-    grid-template-rows: 35px 46px 320px 1fr;
     gap: 32px;
     margin-bottom: 50px;
     max-width: 320px;
