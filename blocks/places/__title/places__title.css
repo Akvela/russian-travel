@@ -25,8 +25,9 @@
 @media screen and (max-width: 320px) {
   .places__title {
     padding-left: 16px;
+    padding-right: 16px;
     font-size: 32px;   
     line-height: 35px;
-    max-width: 288px;
+    max-width: 320px;
   }
 }

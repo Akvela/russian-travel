@@ -1,5 +1,6 @@
 .places__image {
-  width: 460px;
+  max-width: 460px;
+  width: 100%;
   padding-top: 8px;
   height: max-content;
   object-fit: cover;
@@ -7,21 +8,21 @@
 
 @media screen and (max-width: 1024px) {
   .places__image {
-    width: 440px;
+    max-width: 440px;
     padding-top: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__image {
-    width: 340px;
+    max-width: 340px;
     padding-top: 20px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__image {
-    width: 340px;
+    max-width: 340px;
     padding-top: 0;
   }
 }

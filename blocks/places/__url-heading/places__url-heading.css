@@ -17,5 +17,7 @@
 @media screen and (max-width: 320px) {
   .places__url-heading {
     padding-left: 16px;
+    padding-right: 16px;
+    max-width: 320px;
   }
 }

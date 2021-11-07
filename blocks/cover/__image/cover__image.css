@@ -20,6 +20,7 @@
 @media screen and (max-width: 1024px) {
   .cover__image {
     min-height: 640px;
+    min-width: 1024px;
   }
 }
 
@@ -27,6 +28,15 @@
   .cover__image {
     margin-top: 90px;
     min-height: 480px;
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .cover__image {
+    margin-top: 66px;
+    min-height: 317px;
+    min-width: 507px;
   }
 }
 
@@ -34,5 +44,6 @@
   .cover__image {
     margin-top: 66px;
     min-height: 200px;
+    min-width: 320px;
   }
 }
