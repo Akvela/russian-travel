@@ -4,7 +4,9 @@
   gap: 40px;
   margin-bottom: 80px;
   max-width: 984px;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  padding-right: auto;
+  padding-left: auto;
 }
 
 .places__item:last-of-type {
@@ -18,11 +20,28 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .places__item {
+    flex-direction: column;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .places__item {
+    flex-direction: row;
     gap: 28px;
     margin-bottom: 73px;
-    max-width: 720px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .places__item {
+    flex-direction: column;
+    align-content: center;
   }
 }
 
@@ -31,5 +50,6 @@
     gap: 32px;
     margin-bottom: 50px;
     max-width: 320px;
+    flex-direction: row;
   }
 }

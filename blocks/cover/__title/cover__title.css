@@ -17,14 +17,8 @@
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    max-width: 360px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__title {
+    max-width: 288px;
     padding-bottom: 16px;
     margin: 0 auto;
-    max-width: 288px;
   }
 }

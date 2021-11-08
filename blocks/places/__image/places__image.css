@@ -20,8 +20,16 @@
   }
 }
 
+@media screen and (max-width: 368px) {
+  .places__image {
+    padding-left: 16px;
+    max-width: 330px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__image {
-    padding-top: 0;
+    padding: 0;
+    max-width: 320px;
   }
 }

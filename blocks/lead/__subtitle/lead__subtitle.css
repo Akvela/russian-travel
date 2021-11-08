@@ -9,11 +9,21 @@
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    max-width: 768px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    max-width: 288px;
+    max-width: 320px;
     font-size: 16px;
     line-height: 20px;
     padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
