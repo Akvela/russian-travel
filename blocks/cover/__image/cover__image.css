@@ -8,13 +8,10 @@
   justify-content: center;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
+  background-position: center;
   min-height: 740px;
   position: relative;
   text-decoration: none;
-}
-
-.cover__image:hover .cover__overlay {
-  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -42,7 +39,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__image {
-    margin-top: 66px;
     min-height: 200px;
     max-width: 320px;
   }
