@@ -15,7 +15,7 @@
 }
   
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .footer__url {
     font-size: 24px;
     line-height: 24px;

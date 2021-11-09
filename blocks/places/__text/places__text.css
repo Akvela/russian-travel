@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .places__text {
       padding: 0;
       margin: 0 auto;

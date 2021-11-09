@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .places__paragraph {
     max-width: 320px;
     padding-left: 16px;
