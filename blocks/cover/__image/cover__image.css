@@ -12,6 +12,7 @@
   min-height: 740px;
   position: relative;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .cover__image::after { 
