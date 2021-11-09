@@ -3,3 +3,17 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 1024px) {
+  .places__website {
+    max-width: 440px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__website {
+    max-width: 340px;
+    width: 100%;
+  }
+}

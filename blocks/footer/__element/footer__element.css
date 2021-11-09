@@ -1,4 +1,4 @@
-.footer__link {
+.footer__element {
   margin: 0;
   padding-right: 18px;
   display: block;
@@ -6,12 +6,12 @@
   list-style-type: none;
 }
 
-.footer__link:last-of-type {
+.footer__element:last-of-type {
   padding-right: 0;
 }
 
 @media screen and (max-width: 320px) {
-  .footer__link {
+  .footer__element {
     padding-right: 0;
     padding-bottom: 32px;
   }
